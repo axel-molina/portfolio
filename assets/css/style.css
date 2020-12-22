@@ -67,6 +67,16 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
 }
 
+#header::-webkit-scrollbar{
+  width: 7px;
+  background-color: black;
+}
+
+#header::-webkit-scrollbar-thumb{
+  background-color: rgb(70, 117, 204);
+  border-radius: 5px;
+}
+
 #header .profile img {
   margin: 15px auto;
   display: block;
