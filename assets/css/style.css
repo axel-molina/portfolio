@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
   #hero h1, h2, p{
-    margin-left: 15px;
+    margin-left: 40px;
     margin-top: 600px;
   }
 }
@@ -535,6 +535,12 @@ section {
   bottom: 0;
 }
 
+@media (max-width: 768px) {
+  .portfolio h2, p{
+    margin-top: 0;
+  }
+
+}
 
 /*--------------------------------------------------------------
 # Contact
@@ -698,6 +704,13 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #37b3ed;
+}
+
+@media (max-width: 768px) {
+  .contact h2, p{
+    margin-top: 0;
+  }
+
 }
 
 @-webkit-keyframes animate-loading {
@@ -882,4 +895,21 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+@media (max-width: 480px) {
+  #footer {
+    position: static;
+    width: auto;
+    padding-right: 55px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Detalles de portafolio
+--------------------------------------------------------------*/
+.tecnologias{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
