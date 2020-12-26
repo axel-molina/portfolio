@@ -18,7 +18,7 @@ $carta .= "Mensaje: $mensaje";
 // Enviando Mensaje
 $mail = mail($destinatario, $asunto, $carta);
 if($mail){
-    echo "<h4>Mensaje enviado con exito</4>";
+    header("Location:mensaje.html");
 }
 
 ?>
