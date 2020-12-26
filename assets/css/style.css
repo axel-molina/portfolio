@@ -776,6 +776,18 @@ section {
   }
 }
 
+@media (max-width: 480px){
+  .breadcrumbs .container h2{
+    margin-top: 40px;
+  }
+  .portfolio-description h2{
+    margin-top: 40px;
+  }
+  .portfolio-description h2, p{
+    margin-left: 20px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
